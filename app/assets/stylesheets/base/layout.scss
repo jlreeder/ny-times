@@ -1,31 +1,34 @@
 /* Define application-wide selectors here!*/
 
 html {
-	position: relative;
-	height: 100%;
+    position: relative;
+    height: 100%;
 }
 
 body {
-	// ...
+    font-family: $serif;
+    font-size: 12px;
+    margin: 0 auto;
+    width: 80%;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	  background-color: $light-blue;
+	  border-color: $light-blue;
+	  border-radius: 3px;
+	  color: white;
+	  font-size: 1em;
+	  font-family: $serif;
+	  font-weight: 700;
+	  padding: 7px 10px 6px;
+	  text-transform: uppercase;
+	  text-align: center;
+    transition: 0.5s;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	  background-color: $dark-blue;
+	  border-color: $dark-blue;
 }
 
 /*
