@@ -1,6 +1,7 @@
 .main-nav {
+	  border-bottom: 1px solid $light-gray;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px 0;
 }
 

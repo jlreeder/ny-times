@@ -15,6 +15,7 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+  padding: 1.5px;
 }
 
 .language-nav a {
@@ -27,6 +28,10 @@
 
 .language-nav ul {
 	display: flex;
+}
+
+.language-nav ul > li:first-of-type {
+    font-weight: bold;
 }
 
 .logo {
@@ -47,6 +52,14 @@
 	border-right: 1px solid $light-gray;
 }
 
+.masthead-links > li:first-of-type {
+    padding-right: 10px;
+}
+
+.masthead-links > li:last-of-type {
+    border-right: 0;
+}
+
 .masthead-links button {
 	background: none;
 	padding: 0px;
@@ -55,6 +68,7 @@
 	border: none;
 }
 
+// TODO: Increase margin to make grey highlighting more visible
 .masthead-links button:hover {
 	background-color: $lightest-gray;
 }
@@ -70,5 +84,5 @@
 }
 
 .masthead-links strong {
-	color: green;
+	  color: green;
 }
