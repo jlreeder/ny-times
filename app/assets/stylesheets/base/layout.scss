@@ -7,7 +7,7 @@ html {
 
 body {
     font-family: $serif;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0 auto;
     width: 80%;
 }
@@ -18,9 +18,9 @@ button {
 	  border-radius: 3px;
 	  color: white;
 	  font-size: 1em;
-	  font-family: $serif;
+	  font-family: $sans-serif;
 	  font-weight: 700;
-	  padding: 7px 10px 6px;
+	  padding: 8px 10px 8px;
 	  text-transform: uppercase;
 	  text-align: center;
     transition: 0.5s;
