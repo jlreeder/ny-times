@@ -1,0 +1,27 @@
+// TODO: Should I define this on `h1` or on `.article-title`?
+.article-title {
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.by-line {
+    color: $gray;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+.article-bullet {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.5em;
+}
+
+.article-bullet li {
+    margin-bottom: 5px;
+}
+
+.comments-link {
+    color: $blue;
+    font-family: $sans-serif;
+}
