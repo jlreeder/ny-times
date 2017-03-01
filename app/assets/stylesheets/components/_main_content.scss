@@ -1,20 +1,33 @@
-// TODO: Should I define this on `h1` or on `.article-title`?
+.article {
+    padding-bottom: 10px;
+}
+
+.article p {
+    line-height: 1.4em;
+}
+
 .article h1 {
     font-size: 1.7em;
     font-style: italic;
     font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.article h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 3px;
 }
 
 .by-line {
     color: $gray;
-    font-size: 1.2em;
-    padding-bottom: 10px;
+    font-size: 1.1em;
+    padding-bottom: 5px;
 }
 
 .article ul {
     list-style-type: disc;
     padding-left: 15px;
-    line-height: 1.4em;
 }
 
 .article li {
@@ -24,4 +37,8 @@
 .comments-link {
     color: $blue;
     font-family: $sans-serif;
+}
+
+.caption {
+    padding-top: 10px;
 }
