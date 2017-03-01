@@ -2,6 +2,7 @@
     padding-bottom: 10px;
 }
 
+.opinion p,
 .article p {
     line-height: 1.4em;
 }
@@ -17,6 +18,36 @@
     font-size: 1.2em;
     font-weight: bold;
     padding-bottom: 3px;
+}
+
+.opinion h1 {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.opinion h2 {
+    color: $dark-gray;
+    text-transform: uppercase;
+    font-size: .8em;
+    padding-bottom: 3px;
+}
+
+.opinion h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.opinion ul {
+    list-style-type: disc;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.opinion li {
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 .by-line {
